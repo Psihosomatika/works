@@ -1,0 +1,17 @@
+/* body {
+  font-weight: normal;
+} */
+.title {
+  font-size: 40px;
+  color: blueviolet !important;
+}
+/* .subtitle {
+  font-size: 30px;
+  color: darkblue;
+} */
+/* h1.title#title {
+  color: red;
+} */
+#title:hover {
+  color: pink;
+}
