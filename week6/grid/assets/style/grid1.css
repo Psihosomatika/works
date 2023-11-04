@@ -1,0 +1,40 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  grid-template-areas: 
+  "two one three"
+  "four one five"
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* row-start / column-start / row-end / column-end */
+.image-one {
+  /* grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end:2; */
+  /* grid-area: 1 / 1 / 3/ 2; */
+  grid-area: one;
+}
+
+.image-two {
+  grid-area: two;
+}
+
+.image-three {
+  grid-area: three;
+}
+
+.image-four {
+  grid-area: four;
+}
+
+.image-five {
+  grid-area: five;
+}
