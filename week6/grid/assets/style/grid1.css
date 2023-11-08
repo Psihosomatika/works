@@ -5,7 +5,8 @@
   gap: 10px;
   grid-template-areas: 
   "two one three"
-  "four one five"
+  "four one five";
+  width: 100vw
 }
 
 .image {
