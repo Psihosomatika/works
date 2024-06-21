@@ -5,28 +5,26 @@
   margin: 10px;
 }
 .square-st {
+  position: static;
   margin-top: 40px;
-  margin-left: 10px;
-
+  margin-left: 20px;
 }
-
 .square-rel {
   position: relative;
-  top: 10px;
+  top: 60px;
   left: 10px;
-  right: 10px;
+  right: 0px;
   bottom: 0px;
   background-color: rgb(229, 94, 253);
-  z-index: 1;
+  z-index: 3;
 }
 .square-fix {
   position: fixed;
   background-color: rgb(94, 97, 253);
-  top: 100px;
+  top: 25px;
   left: 20px;
   z-index: 2;
 }
-
 .square-parent {
   position: relative;
   z-index: 1;
@@ -35,7 +33,6 @@
   background-color: black;
   width: 10px;
   height: 10px;
-
   position: absolute;
   top: 0px;
   right: 0px;

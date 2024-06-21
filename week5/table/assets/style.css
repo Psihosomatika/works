@@ -1,6 +1,6 @@
 table {
   width: 100%;
-  /* border-collapse: collapse; */
+  border-collapse: collapse;
   border: 3px solid #f89aff;
 }
 
@@ -9,7 +9,6 @@ td {
   padding: 20px;
   text-align: start;
   border: 3px solid #f89aff;
-  
 }
 
 thead,
@@ -20,6 +19,11 @@ tfoot {
 thead th,
 tfoot th,
 tfoot td {
-  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+  background-image: linear-gradient(
+    to top,
+    #fdcbf1 0%,
+    #fdcbf1 1%,
+    #e6dee9 100%
+  );
   border: 3px solid #f89aff;
 }

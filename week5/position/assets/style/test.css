@@ -1,0 +1,42 @@
+.square-parent {
+  position: relative;
+  z-index: 1;
+}
+.square-abs {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 3;
+}
+
+body {
+  font-size: 24px;
+}
+.link {
+  border: 1px solid lightcoral;
+  background-color: rgba(253, 159, 159, 0.837);
+}
+.span {
+  border: 1px solid lightseagreen;
+  background-color: lightgreen;
+}
+.img {
+  width: 100px;
+}
+.text {
+  border: 1px solid orangered;
+  background-color: lightsalmon;
+}
+
+.section {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(122, 253, 255);
+}
+.block {
+  border: 1px solid rgb(176, 0, 120);
+  background-color: rgb(235, 122, 255);
+  width: 35%;
+}
